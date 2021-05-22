@@ -1,0 +1,32 @@
+{% extends "mainApp/wrapper.html" %}
+
+{% block content %}
+    <div class="alert alert-success" role="alert">
+    <h1>Карта жителя и гостя города</h1>
+        <p><h5>Новроссийск является кулютурным центром и городом-героем, который привлекает более миллиона туристов в год. Также наш город является крупным портовым центром, крупнейшим в России. Для удобства жителей и гостей города мы разработали единую систему, с помощью которой вы легче и бестрее сможете найти для себя то, что Вам по душе. Также наш сервис предлагает Вам завести нашу новую Digital-карту, чтобы у Вы смогли получать скидки и призы от наших партнёров и администрации города!</h5></p>
+    </div>
+  <div class="row" name="register" style="margin-bottom: 30px; margin-top: 30px">
+      <div class="col"></div>
+  <div class="col">
+      <div class="card" style="width: 18rem;">
+        <img src="/static/mainApp/image/tourist.png" class="card-img-top" alt="...">
+        <div class="card-body">
+        <h5 class="card-title">Карта туриста</h5>
+        <p class="card-text">Something written</p>
+        <a href="#" class="btn btn-success">Зарегистрироваться</a>
+        </div>
+      </div>
+  </div>
+      <div class="col">
+      <div class="card" style="width: 18rem;">
+        <img src="/static/mainApp/image/city.png" class="card-img-top" alt="...">
+        <div class="card-body">
+        <h5 class="card-title">Карта жителя</h5>
+        <p class="card-text">Something written</p>
+        <a href="#" class="btn btn-primary">Зарегистрироваться</a>
+        </div>
+      </div>
+  </div>
+      <div class="col"></div>
+  </div>
+{% endblock %}
